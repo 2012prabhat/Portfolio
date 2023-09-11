@@ -1,0 +1,79 @@
+.projects{
+    /* padding-top: 50px; */
+    height: auto !important;
+    background:var(--color1);
+}
+
+.projects .head{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: var(--color2);
+}
+
+.projects .proCont{
+    margin-top: 2%;
+    /* border: 1px solid black; */
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    /* overflow: auto; */
+}
+
+.projects .proCont .projectCard{
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    height: 40%;
+    width: 30%;
+    cursor: pointer;
+}
+
+.projects .proCont .projectCard img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4em;
+}
+
+.projects .proCont .projectCard .nameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black;
+    background: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top:5%;
+    /* font-weight: bold; */
+}
+
+.projects .proCont .projectData{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.projects .proCont .projectData .proDesc{
+    width: 65%;
+    /* text-align: center; */
+}
+
+.projects .proCont .projectData .proDesc .techStack img{
+    max-height: 8%;
+    max-width: 8%;
+    margin-right: 2%;
+}
+
+.featuresCont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects a{
+    text-decoration: none;
+}

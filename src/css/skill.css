@@ -1,0 +1,67 @@
+.skill{
+    background: var(--color1);
+}
+.skill .skillHead{
+    width: 100%;
+    text-align: center;
+    color: var(--color2);
+    font-size: 3em;
+    padding-top: 50px;
+}
+.skill .about{
+    padding: 0 10%;
+    text-align: center;
+    color:white;
+    font-size:0.75em;
+}
+.skill .skillContPar{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    color: white;
+    width: 100%;
+    height: 60%;
+    margin-top: 3%;
+}
+.skill .skillContPar .skillTagCont{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skill .skillContPar .skillTagCont .skillTag{
+    transform: rotate(270deg);
+    font-size: 2em;
+    border-bottom: 4px solid var(--color2);
+}
+.skill .skillContPar .skillsCont{
+    /* border: 2px solid white; */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+    /* padding: 10%; */
+}
+
+.skill .skillContPar .skillsCont .skillCard img{
+    max-height:70%;
+    max-width: 70%;
+    transition: all 0.5s;
+}
+
+.skill .skillContPar .skillsCont .skillCard:hover img{
+    transform: rotate(360deg) scale(1.3);
+}
+
+.skill .skillContPar .skillsCont .skillCard{
+    /* border: 2px solid white; */
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}

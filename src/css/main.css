@@ -1,0 +1,38 @@
+:root{
+    --color1:#4831d4;
+    --color1:#1e272e;
+    --color2:#ccf381;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    font-family: calibri;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    height: 100vh;
+}
+@media screen and (max-width:700px) {
+    body{
+font-size: 3vw;
+}
+#root{
+    overflow: hidden;
+
+}
+section{
+    height: auto;
+    overflow: hidden;
+}
+}
+@import url("../css/homepage.css");
+@import url("../css/skill.css");
+@import url("../css/projects.css");
+@import url("../css/contactUs.css");
+@import url("../css/footer.css");
+@import url("../css/experience.css");

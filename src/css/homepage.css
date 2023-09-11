@@ -1,0 +1,97 @@
+.home {
+    background: linear-gradient(90deg, var(--color1) 67%, var(--color2) 33%)
+}
+.home .name{
+    color: var(--color2);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 3vw 6vw;
+}
+
+.home .middle{
+    /* border: 2px solid rgb(238, 28, 28); */
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home .middle .left{
+    /* border: 2px solid black; */
+    /* height: 100%; */
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.home .middle .left .post{
+    font-size: 4em;
+    /* text-align: center; */
+    color: var(--color2);
+    font-weight: bolder;
+    padding: 0 20%;
+}
+.home .middle .left .afterPost{
+    color: white;
+    padding: 2% 20%;
+}
+
+.home .middle .right{
+    /* border:2px solid black; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+ 
+}
+.home .middle .right .imgCont{
+    /* height: 90%; */
+     width: 40%;
+    margin-left: 0%;
+    border: 2px solid white;
+    margin-left: 20%;
+    
+}
+.home .middle .right .imgCont img{
+    max-height: 100%;
+    max-width: 100%;
+    /* margin-top: -10%;
+    margin-left: -15%; */
+    transform: translate(-10%,-10%);
+}
+
+
+
+.home .bottomText{
+    padding: 0 10%;
+    width: 40%;
+    color: white;
+}
+
+@media screen and (max-width:700px) {
+    .home{
+        background: var(--color1);
+
+    }
+    .home .middle{
+        flex-direction: column;
+        background: var(--color1);
+
+    }
+
+    .home .middle .left{
+        width: 100%;
+        background: var(--color1);
+       
+    }
+
+    .home .middle .right{
+        width: 100%;
+        margin: 5% 0;
+        padding: 5% 0;
+        background: var(--color2);
+    }
+    
+}
