@@ -15,7 +15,7 @@ function Experience() {
         </div>
         <div className='card'>
           <div className='year'>July 2022 - Present</div>
-          <div className='desc'>1+ Year of Experience as Web Developer in Global Survey Solutions</div>
+          <div className='desc'>1.5+ Year of Experience as Web Developer in Global Survey Solutions</div>
         </div>
     </section>
   )

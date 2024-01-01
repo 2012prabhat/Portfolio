@@ -2,6 +2,7 @@
     /* padding-top: 50px; */
     height: auto !important;
     background:var(--color1);
+    padding-top: 5%;
 }
 
 .projects .head{
@@ -12,7 +13,7 @@
 }
 
 .projects .proCont{
-    margin-top: 2%;
+    /* margin-top: 2%; */
     /* border: 1px solid black; */
     height: 75%;
     display: flex;
@@ -27,7 +28,7 @@
     margin-top: 5%;
     height: 40%;
     width: 30%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .projects .proCont .projectCard img{
@@ -55,7 +56,9 @@
     width: 100%;
     justify-content: space-between;
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
+    font-size: 0.85em;
+    transform: scale(0.9);
 }
 
 .projects .proCont .projectData .proDesc{
@@ -76,4 +79,14 @@
 
 .projects a{
     text-decoration: none;
+}
+
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    color: var(--color2);
+    font-weight: bold;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color2) !important;
 }
