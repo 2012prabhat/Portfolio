@@ -24,7 +24,7 @@ export default function ProjectData(props) {
               <div>
                <ul>
                {(props.features).map((m,i)=>{
-                 if (i<props.features.length/2)  return  <li>{m}</li>
+                 if (i<props.features.length/2)  return  <li key={i}>{m}</li>
                 })}
                </ul>
                
@@ -33,7 +33,7 @@ export default function ProjectData(props) {
               <div>
                 <ul>
                 {(props.features).map((m,i)=>{
-                 if (i>=props.features.length/2)  return  <li>{m}</li>
+                 if (i>=props.features.length/2)  return  <li key={i}>{m}</li>
                 })}
                 </ul>
             
@@ -45,8 +45,8 @@ export default function ProjectData(props) {
               <div>Tech Stack :- </div>
               <br />
               <div>
-                {(props.techStack).map((m)=>{
-                    return  <img src={m} />
+                {(props.techStack).map((m,i)=>{
+                    return  <img key={i} src={m} />
                 })}
               </div>
             </div>

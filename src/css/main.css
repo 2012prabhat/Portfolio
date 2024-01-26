@@ -17,6 +17,30 @@ body{
 section{
     height: 100vh;
 }
+
+.errCard{
+    position: fixed;
+    top: 2%;
+    width: 40%;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    left:30%;
+    right: 0;
+    font-size: 1.5em;
+    border-radius: 0.2em;
+    animation: fadeIn 0.5s;
+    z-index: 1000000;
+}
+
+.errCard.error{
+    background: indianred;
+}
+
+.errCard.success{
+    background: #2ecc71;
+
+}
 @media screen and (max-width:700px) {
     body{
 font-size: 3vw;
