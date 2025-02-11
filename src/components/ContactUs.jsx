@@ -15,7 +15,7 @@ function ContactUs() {
       "message":e.target.message.value
   }
   try{
-      const response = await emailjs.send('service_szj5qij', 'template_dy58rfo', templateParams, 'bizYb2sO0695l7E04');
+      const response = await emailjs.send('service_yamb2qn', 'template_dy58rfo', templateParams, 'bizYb2sO0695l7E04');
       if(response.status == 200) showErrorCard('Email sent successfully','success')
       e.target.reset();
 } catch (error) {
